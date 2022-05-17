@@ -11,7 +11,6 @@ public class ChainPatternDemo {
 
         return errorLogger;
     }
-
     public static void main(String[] args) {
         AbstractLogger loggerChain = getChainOfLoggers();
 
